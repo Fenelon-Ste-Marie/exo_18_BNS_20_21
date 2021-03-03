@@ -11,3 +11,4 @@ def test_est_palindrome():
 def test_est_nbre_palindrome():
     assert est_nbre_palindrome(214312) == False
     assert est_nbre_palindrome(213312) == True
+    
