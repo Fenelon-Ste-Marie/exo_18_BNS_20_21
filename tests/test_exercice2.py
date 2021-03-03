@@ -1,14 +1,7 @@
 from exercices.exercice2 import *
 
-def test_inverse_chaine():
-    chaine='bac'
-    assert inverse_chaine(chaine) == 'cab'
-    
-def test_est_palindrome():
-    chaine='NSI'
-    assert est_palindrome(chaine) ==False
-
-def test_est_nbre_palindrome():
-    assert est_nbre_palindrome(214312) == False
-    assert est_nbre_palindrome(213312) == True
+def test_insertion():
+    assert insere(3,[1,2,4,5]) == [1, 2, 3, 4, 5]
+    assert insere(10,[1,2,7,12,14,25]) == [1, 2, 7, 10, 12, 14, 25]
+    assert insere(1,[2,3,4]) == [1, 2, 3, 4]
     
